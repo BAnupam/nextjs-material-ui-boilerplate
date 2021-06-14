@@ -7,7 +7,7 @@ import { ThemeProvider as MaterialUiProvider } from '@material-ui/core/styles';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import theme from '../themes/dark';
+import theme from '../themes/light';
 
 export default class MyApp extends App {
   componentDidMount() {

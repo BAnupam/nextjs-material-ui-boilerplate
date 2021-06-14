@@ -1,5 +1,40 @@
-.anupam{
+
+.logo{
     margin-top: '10%';
     margin-bottom: '100%';
     padding-bottom: '100%';
 }
+
+.nav{
+    background-color: black;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navItem{ 
+    margin-bottom: 10%; ;
+    padding-bottom: 30%;
+}
+
+.navHome{
+    max-width: 150%;
+    position: relative;
+    left: -23px;
+}
+
+.navIcon{
+    max-width: 60%;
+}
+
+.navLast{
+    top: 60%;
+}
+
+.inbox{
+    background: #F4F7FE;
+    width: 21%;
+    margin-left: 4%;
+}
+

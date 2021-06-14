@@ -1,16 +1,20 @@
 import React from 'react';
 import Navbar from '../components/navbar/Navbar';
 import Sidebar from '../components/sidebar/Sidebar';
-import { Container } from 'next/app';
-import { Box } from '@material-ui/core';
+import Cards from '../components/card/Card';
+import Rowpost from 'src/components/rowpost/Rowpost';
+import Event from 'src/components/event/Event';
 
 const home = () => {
     return (
       <div>
         <Navbar />
         <Sidebar />
+        <Cards />
+        <Rowpost />
+        <Event />
+        <Rowpost />
       </div>
-  
   );
 }
 

@@ -5,7 +5,12 @@ import {
   List,
   CssBaseline,
   makeStyles,
+  Tabs,
+  Tab,
 } from '@material-ui/core';
+import Chat from '../chat/Chat'
+import Alert from '../alert/Alert';
+import { Typography } from '@material-ui/core';
 import pageStyle from './style.css';
 const useStyles = makeStyles({
   nav: {
@@ -16,6 +21,7 @@ const useStyles = makeStyles({
     background: '#F4F7FE',
     width: '21%',
     marginLeft: '4%',
+    overflow: 'auto'
   },
 });
 
@@ -30,7 +36,7 @@ function Sidebar() {
         anchor="left"
       >
         <List>
-          <ListItem className={pageStyle.anupam}>
+          <ListItem>
             <img src="/assets/Logo.svg" alt="Logo" />
           </ListItem>
           <ListItem style={{ marginBottom: '10%', paddingBottom: '30%' }}>
@@ -78,15 +84,30 @@ function Sidebar() {
         </List>
       </Drawer>
       <Drawer classes={{ paper: classes.inbox }} variant="permanent">
-        <List>
-          <ListItem>
-            <img
-              style={{ width: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
-              src="/assets/EzRY.svg"
-              alt=""
-            />
+        <img
+          style={{ width: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
+          src="/assets/EzRY.svg"
+          alt=""
+        />
+        <Tabs style={{paddingTop: '5%', textAlign: 'center'}}>
+          <Tab label="Activity" />
+          <Tab label="Notifications" />
+        </Tabs>
+        <List style={{margin: '8%'}}>
+          <ListItem style={{ paddingTop: '4%', paddingBottom: '4%'}}>
+            <Typography style={{color: 'black'}} component="h5" variant="normal">
+              Today
+            </Typography>
+            <img style={{transform: 'rotate(90deg) scale(0.4)', height: '25px'}} src="/assets/back.svg" alt="" />
           </ListItem>
+          <Alert />
+          <Alert />
+          <Alert />
+          <Alert />
+          <Alert />
+          <Alert />
         </List>
+        <Chat/>
       </Drawer>
     </div>
   );
