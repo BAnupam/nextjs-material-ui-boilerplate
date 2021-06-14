@@ -1,0 +1,6 @@
+<svg id="Send_button" data-name="Send button" xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 30 40">
+  <ellipse id="Ellipse_66" data-name="Ellipse 66" cx="15" cy="20" rx="15" ry="20" fill="#00ccf2"/>
+  <g id="paper-plane" transform="translate(8.154 11)">
+    <path id="Path_49" data-name="Path 49" d="M13.238.271a.385.385,0,0,0-.424-.08L.232,5.706A.389.389,0,0,0,0,6.039a.382.382,0,0,0,.194.353L4.581,8.88l2.6,4.432a.387.387,0,0,0,.33.191h.023a.385.385,0,0,0,.33-.231L13.32.7A.38.38,0,0,0,13.238.271Zm-2,1.449L4.8,8.117,1.242,6.1ZM7.465,12.27,5.344,8.658,11.82,2.224Z" transform="translate(0 -0.16)" fill="#f5fbff"/>
+  </g>
+</svg>
